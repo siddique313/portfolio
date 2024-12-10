@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <>
       <div>
-        <div>
-          <h1 className="text-4xl mt-10 ml-4">My Portfolio</h1>
+        <div className="">
+          <h1 className="text-4xl ml-6 pt-5">My Portfolio</h1>
         </div>
         <Filter />
       </div>
