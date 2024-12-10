@@ -15,7 +15,7 @@ export default function Sidebar() {
                   <li>ABOUT</li>
                   <li>CONTACT</li>
                   <li>HELP</li>
-                  
+
               </ul>
              
           </div>
