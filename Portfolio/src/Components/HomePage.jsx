@@ -1,9 +1,11 @@
 import Sidebar from "./Sidebar";
 import Cards from "./Cards";
 import Header from "./Header";
-import Pics from './Pics';
+import Pics from "./Pics";
 import Technical from "./Technical";
 import Rates from "./Rates";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 export default function HomePage() {
   return (
@@ -16,7 +18,9 @@ export default function HomePage() {
         <Cards />
         <Pics />
         <Technical />
-        <Rates/>
+        <Rates />
+        <Contact />
+        <Footer />
       </section>
     </section>
   );
