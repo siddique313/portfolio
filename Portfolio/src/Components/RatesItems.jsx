@@ -9,24 +9,23 @@ export default function RatesItems({ BasicColor, storage, rupies }) {
         >
           Basic
         </li>
-        <li className="border-2 py-3 w-full text-center border-t-0">
+        <li className="border-2 py-5 w-full text-center border-t-0">
           Web Design
         </li>
-        <li className="border-2 py-3 w-full text-center border-t-0">
+        <li className="border-2 py-5 w-full text-center border-t-0">
           Photography
         </li>
-        <li className="border-2 py-3 w-full text-center border-t-0">
+        <li className="border-2 py-5 w-full text-center border-t-0">
           {storage} Storage
         </li>
-        <li className="border-2 py-3 w-full text-center border-t-0">
+        <li className="border-2 py-5 w-full text-center border-t-0">
           Mail Support
         </li>
-        <li className="border-2 py-3 w-full text-center border-t-0">
-          <span>$ {rupies}</span>
-          <br />
+        <li className="border-2 py-5 w-full text-center border-t-0 flex flex-col gap-4 ">
+          <span className="text-2xl">$ {rupies}</span>
           <span>per month</span>
         </li>
-        <li className="border-2 py-3 w-full text-center border-t-0 ">
+        <li className="border-2 py-5 w-full text-center border-t-0 ">
           <button className="bg-blue-500 hover:bg-black  hover:text-white px-8 py-3">
             Sign Up
           </button>
