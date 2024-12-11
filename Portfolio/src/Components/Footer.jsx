@@ -48,6 +48,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        
         <div className="w-[30%]">
           <h1 className="text-2xl pt-10 ">POPULAR TAGS</h1>
           <div></div>
