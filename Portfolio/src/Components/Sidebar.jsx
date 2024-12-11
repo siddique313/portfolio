@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/logo2.png";
+import "./sideBar.css"
 export default function Sidebar() {
+  
   return (
-    <div className="flex flex-col gap-5 pt-5 pl-4 h-screen w-[240px] ">
+    <div className={`tech flex flex-col gap-5 pt-5 pl-4 h-screen w-[240px] `}>
       <div className="flex flex-col items-start gap-6 ">
-        <img className="rounded-lg h-28" src={logo} alt="" />
+        <img className="rounded-lg h-28" src={logo}  />
         <h1 className="text-xl">PORTFOLIO</h1>
       </div>
       <div className="mt-8 w-full ">
