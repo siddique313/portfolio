@@ -6,12 +6,15 @@ import Technical from "./Technical";
 import Rates from "./Rates";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import { useState } from "react";
 
 export default function HomePage() {
+  const [res, setRes] = useState(false)
+  const hello = res==""?<div><Sidebar /></div> :<dev>hello</dev>
   return (
     <section className="relative ">
-      <section className="fixed">
-        <Sidebar />
+      <section className={`fixed lg:`}>
+       { hello}
       </section>
       <section className="ml-60 bg-slate-100 ">
         <Header />
