@@ -4,8 +4,8 @@ import { Prc } from "./Components/Prc";
 function App() {
   return (
     <>
-      {/* <HomePage /> */}
-      <Prc/>
+      <HomePage />
+      {/* <Prc /> */}
     </>
   );
 }
