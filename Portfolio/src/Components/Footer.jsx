@@ -51,24 +51,23 @@ const Footer = () => {
 
         <div className="w-[30%]">
           <h1 className="text-2xl pt-10 ">POPULAR TAGS</h1>
-          <div className="gap-2  flex">
+          <div className="gap-2  flex text-nowrap flex-wrap">
             <span className="bg-black text-white px-3 mt-4">Travel</span>
-            <span className="bg-slate-400 px-2 mt-4">New York</span>
-            <span className="bg-slate-400 px-2 mt-4">London</span>
-            <span className="bg-slate-400 px-2 mt-4">IKEA</span>
+            <span className="bg-slate-400 text-sm px-2 mt-4">New York</span>
+            <span className="bg-slate-400 text-sm px-2 mt-4">London</span>
+            <span className="bg-slate-400 text-sm px-2 mt-4">IKEA</span>
           </div>
-          <div className="gap-2  flex">
+          <div className="gap-2 text-sm flex flex-wrap">
             <span className="bg-slate-400 px-1 mt-4">DIY</span>
             <span className="bg-slate-400 px-1 mt-4">Ideas</span>
             <span className="bg-slate-400 px-1 mt-4">Baby</span>
             <span className="bg-slate-400 px-1 mt-4">Family</span>
-            
             <span className="bg-slate-400 px-1 mt-4">Clothing</span>
           </div>
-          <div className="gap-2  flex">
-            <span className="bg-slate-400 px-2 mt-4">Shopping</span>
-            <span className="bg-slate-400 px-2 mt-4">Sports</span>
-            <span className="bg-slate-400 px-2 mt-4">Games</span>
+          <div className="gap-2  flex flex-wrap">
+            <span className="bg-slate-400 text-sm px-2 mt-4">Shopping</span>
+            <span className="bg-slate-400 text-sm px-2 mt-4">Sports</span>
+            <span className="bg-slate-400 text-sm px-2 mt-4">Games</span>
           </div>
         </div>
       </div>

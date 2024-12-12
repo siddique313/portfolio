@@ -8,11 +8,11 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import { useState } from "react";
 import Powered from "./Powered";
-
+import "./sideBar.css"
 export default function HomePage() {
   return (
     <section className="relative ">
-      <section className='fixed'>  <Sidebar /></section>
+      <section className='fixed flex'>  <Sidebar /></section>
       <section className="ml-60 bg-slate-100 ">
         <Header />
         <Cards />

@@ -47,9 +47,8 @@ const Contact = () => {
               type="textarea"
             />
           </div>
-          <div className=" mt-8 ml-4">
-            <img src="" alt="" />
-            <button className="flex  gap-2 items-center justify-center bg-black text-white hover:bg-slate-300 hover:text-black py-3 px-8 mb-3">
+          <div className=" mt-8 ml-4 pb-7">
+            <button className="flex  gap-2 items-center justify-center bg-black text-white hover:bg-slate-300 hover:text-black py-3 px-8 ">
             <FaPaperPlane />  Send Message
             </button>
           </div>
