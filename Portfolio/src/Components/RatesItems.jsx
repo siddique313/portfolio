@@ -2,10 +2,10 @@ import React from "react";
 
 export default function RatesItems({ BasicColor, storage, rupies }) {
   return (
-    <div className="w-full">
+    <div className="w-full ">
       <ul className="flex flex-col items-center">
         <li
-          className={`${BasicColor} w-full text-center py-5 text-2xl border-none text-white border-zinc-600`}
+          className={`${BasicColor} w-full text-center py-5 text-2xl border-none hover:border-black text-white border-zinc-600`}
         >
           Basic
         </li>
