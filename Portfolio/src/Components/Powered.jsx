@@ -5,7 +5,7 @@ const Powered = () => {
     <>
       <div className="bg-black h-20">
         <h1 className="text-center items-center text-white justify-centre pt-7 text-xl">
-          Powered by <strong className="text-wrap"> Ufusion</strong>
+          Powered by <strong className="decoration-red-600"> Ufusion</strong>
         </h1>
       </div>
     </>
