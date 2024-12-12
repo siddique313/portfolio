@@ -50,8 +50,8 @@ const Footer = () => {
         </div>
 
         <div className="w-[30%]">
-          <h1 className="text-2xl pt-10 ">POPULAR TAGS</h1>
-          <div className="gap-2  flex">
+          <h1 className="text-2xl pt-10  ">POPULAR TAGS</h1>
+          <div className="gap-2 pt-4 flex">
             <span className="bg-black text-white px-3 mt-4">Travel</span>
             <span className="bg-slate-400 px-3 mt-4">New York</span>
             <span className="bg-slate-400 px-3 mt-4">London</span>
