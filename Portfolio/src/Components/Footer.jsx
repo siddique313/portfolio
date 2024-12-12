@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className="w-[30%]">
           <h1 className="text-2xl pt-10 ">POPULAR TAGS</h1>
-          <div className="gap-2  flex text-nowrap flex-wrap">
+          <div className="gap-2  flex">
             <span className="bg-black text-white px-3 mt-4">Travel</span>
             <span className="bg-slate-400 text-sm px-2 mt-4">New York</span>
             <span className="bg-slate-400 text-sm px-2 mt-4">London</span>
