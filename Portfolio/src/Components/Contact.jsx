@@ -41,7 +41,7 @@ const Contact = () => {
               type="textarea"
             />
           </div>
-          <div className=" mt-8 ml-4 mb-3">
+          <div className=" mt-8 ml-4">
             <button className="bg-black text-white hover:bg-slate-300 hover:text-black py-3 px-8 mb-3">
               Send Message
             </button>

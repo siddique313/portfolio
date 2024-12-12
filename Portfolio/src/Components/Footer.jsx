@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="bg-slate-500  pl-7 flex justify-between w-full">
         <div className="w-[30%]">
           <h1 className="text-2xl pt-10 ">FOOTER</h1>
-          <p className=" mt-3">
+          <p>
             Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
             condimentum, porta lectus vitae, ultricies congue gravida diam non
             fringilla.
@@ -48,10 +48,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="w-[30%]">
           <h1 className="text-2xl pt-10 ">POPULAR TAGS</h1>
-          <div></div>
+          <div>
+            <span></span>
+          </div>
         </div>
       </div>
     </>
