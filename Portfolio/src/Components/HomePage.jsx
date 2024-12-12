@@ -7,15 +7,12 @@ import Rates from "./Rates";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { useState } from "react";
+import Powered from "./Powered";
 
 export default function HomePage() {
-  const [res, setRes] = useState(false)
-  const hello = res==""?<div><Sidebar /></div> :<dev>hello</dev>
   return (
     <section className="relative ">
-      <section className={`fixed lg:`}>
-       { hello}
-      </section>
+      <section className='fixed'>  <Sidebar /></section>
       <section className="ml-60 bg-slate-100 ">
         <Header />
         <Cards />
@@ -24,6 +21,7 @@ export default function HomePage() {
         <Rates />
         <Contact />
         <Footer />
+        <Powered />
       </section>
     </section>
   );
