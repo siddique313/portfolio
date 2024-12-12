@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import logo from "../assets/logo2.png";
+import { IoAppsSharp, IoMail } from "react-icons/io5";
+import { IoMdContact } from "react-icons/io";
+import { FaDownload } from "react-icons/fa6";
 import "./sideBar.css"
 export default function Sidebar() {
   
@@ -11,18 +14,18 @@ export default function Sidebar() {
       </div>
       <div className="mt-8 w-full ">
         <ul className="flex flex-col gap-4  font-thin w-full">
-          <li className="hover:bg-slate-200 w-full px-2 cursor-pointer  py-2 ">
-            PORTFOLIO
+          <li className="hover:bg-slate-200 w-full px-2 cursor-pointer  py-2 flex items-center  gap-2 ">
+          <span className="text-xl"><IoAppsSharp /></span>
+          PORTFOLIO
           </li>
-          <li className="hover:bg-slate-200 w-full px-2 cursor-pointer  py-2 ">
-            ABOUT
+          <li className="hover:bg-slate-200 w-full px-2 cursor-pointer  py-2 flex items-center gap-2 ">
+          <span className="text-xl"><IoMdContact/></span>  ABOUT
           </li>
-          <li className="hover:bg-slate-200 w-full px-2 cursor-pointer  py-2 ">
-            CONTACT
+          <li className="hover:bg-slate-200 w-full px-2 cursor-pointer  py-2 flex items-center gap-2">
+          <span className="text-xl"><IoMail /></span>
+          CONTACT
           </li>
-          <li className="hover:bg-slate-200 w-full px-2 cursor-pointer  py-2 ">
-            HELP
-          </li>
+          
         </ul>
       </div>
     </div>
