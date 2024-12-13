@@ -1,7 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./HomePage";
 import Header from "./Header";
-import Sidebar from "./Sidebar";
 import About from "./About";
 import Contact from "./Contact";
 export default function ROUTer() {

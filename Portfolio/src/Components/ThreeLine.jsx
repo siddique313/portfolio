@@ -1,16 +1,16 @@
-import React from "react";
-import ing from "../assets/logo2.png";
-export default function ThreeLine() {
+import ing from "../assets/logo2.png"
+export default function ThreeLine({hideShow, setHideShow}) {
   return (
-    <div className="w-full flex items-center ">
-      <div className="flex flex-col gap-2">
-        <div className="w-full h-2  bg-blue-950 "></div>
-        <div className="w-full h-2  bg-blue-950 "></div>
-        <div className="w-full h-2  bg-blue-950 "></div>
-      </div>
-      <div className="flex float-right">
-        <img src={ing} width={200} alt="" />
-      </div>
+    <div className='w-full   flex lg:hidden px-5 items-center justify-between  '>
+     <div className={`${hideShow? "flex": "hidden"} flex-col  gap-1 z-10 cursor-pointer`} onClick={()=>{
+      setHideShow(!hideShow)}} >
+     <div className='w-6 h-1  bg-blue-950 '></div>
+      <div className='w-6 h-1  bg-blue-950 '></div>
+      <div className='w-6 h-1  bg-blue-950 '></div>
+     </div>
+     <div className='pt-4'>
+        <img src={ing} width={100} className='rounded-full' alt="" />
+     </div>
     </div>
   );
 }

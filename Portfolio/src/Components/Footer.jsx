@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-      <div className="bg-slate-500  pl-7 flex justify-between w-full pb-7 text-white">
-        <div className="w-[30%]">
+      <div className="bg-slate-500  pl-7 grid grid-cols-1 sm:grid-cols-3 text-center sm:te w-full pb-7 text-white">
+        <div className="">
           <h1 className="text-2xl pt-10 ">FOOTER</h1>
           <p className="mt-12">
             Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
@@ -10,15 +10,9 @@ const Footer = () => {
           </p>
           <p className="mt-2">Powered by w3.css</p>
         </div>
-        <div
-          className="w-[30%] flex flex-col
-        gap-5"
-        >
-          <h1 className="text-2xl pt-10 w-32">BLOG POSTS</h1>
-          <div
-            className="flex
-           gap-6  hover:bg-slate-400"
-          >
+        <div className=" flex flex-col items-center justify-center gap-5"
+        ><h1 className="text-2xl pt-10 w-32">BLOG POSTS</h1>
+          <div className="flex gap-6 items-center justify-center  hover:bg-slate-400" >
             <img
               className="w-14 h-16 "
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/220px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg"
@@ -46,9 +40,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="w-[30%]">
+        <div className=" text-center flex flex-col items-center">
           <h1 className="text-2xl pt-10 ">POPULAR TAGS</h1>
-          <div className="gap-2  flex">
+          <div className="gap-2  flex flex-wrap">
             <span className="bg-black text-white px-3 mt-4">Travel</span>
             <span className="bg-slate-400 text-sm px-2 mt-4">New York</span>
             <span className="bg-slate-400 text-sm px-2 mt-4">London</span>
