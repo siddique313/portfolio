@@ -1,8 +1,5 @@
-import React from 'react'
-
 export default function TechnicalItems( {width,skillName} ) {
   return (
-    <div>
       <div>
                   <span>
                   {skillName}
@@ -19,6 +16,5 @@ export default function TechnicalItems( {width,skillName} ) {
                   </div>
                   
               </div>
-    </div>
   )
 }

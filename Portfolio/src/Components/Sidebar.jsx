@@ -1,15 +1,11 @@
-import React, { useState } from "react";
 import logo from "../assets/logo2.png";
 import { IoAppsSharp, IoMail } from "react-icons/io5";
 import { IoMdContact } from "react-icons/io";
-import "./sideBar.css"
 import { NavLink } from "react-router";
-import HomePage from "./HomePage";
-import Header from "./Header";
 export default function Sidebar() {
   
   return (
-    <div className={` flex flex-col gap-5 pt-5 pl-4 h-screen w-[240px] `}>
+    <div className="flex-col gap-5 pt-5 pl-4 h-screen w-[240px] hidden lg:flex">
       <div className="flex flex-col items-start gap-6 ">
         <img className="rounded-lg h-28" src={logo}  />
         <h1 className="text-xl" >PORTFOLIO</h1>
@@ -45,7 +41,6 @@ export default function Sidebar() {
           CONTACT
           </li>
           </NavLink>
-          
         </ul>
       </div>
     </div>

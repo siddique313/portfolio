@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function CardItem({imge}) {
   return (
     <div className='shadow-2xl'>
