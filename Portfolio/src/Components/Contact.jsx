@@ -14,20 +14,20 @@ const Contact = () => {
         <div className="ml-4 text-2xl ">
           <h1 className="pt-5 text-2xl">Contact Us</h1>
         </div>
-        <div className="mt-5 flex justify-center text-center">
-          <div className="mt-6 bg-blue-700 py-12 flex flex-col gap-4 items-center justify-start w-72">
+        <div className="mt-5 grid grid-cols-1 sm:grid-cols-3 justify-center text-center">
+          <div className="mt-6 bg-blue-700 py-12 flex flex-col gap-4 items-center justify-start ">
             <span className="text-4xl">
               <IoMdMail />
             </span>
             <h2>email@email.com</h2>
           </div>
-          <div className="mt-6 bg-green-700 py-12 flex flex-col gap-4 items-center justify-start w-72">
+          <div className="mt-6 bg-green-700 py-12 flex flex-col gap-4 items-center justify-start ">
             <span className="text-4xl">
               <MdLocationOn />
             </span>
             <h2>Gilgit, Pakistan</h2>
           </div>
-          <div className="mt-6 bg-yellow-700 py-12 flex flex-col gap-4 items-center justify-start w-72">
+          <div className="mt-6 bg-yellow-700 py-12 flex flex-col gap-4 items-center justify-start ">
             <span className="text-4xl">
               <FaPhone />
             </span>
