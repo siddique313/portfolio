@@ -1,14 +1,14 @@
-import React, { useState } from "react";
 import logo from "../assets/logo2.png";
 import { IoAppsSharp, IoMail } from "react-icons/io5";
 import { IoMdContact } from "react-icons/io";
+<<<<<<< HEAD
 import "./sideBar.css";
+=======
+>>>>>>> 3acf0989fb0901f09ead9b3127c078164cb66ac8
 import { NavLink } from "react-router";
-import HomePage from "./HomePage";
-import Header from "./Header";
 export default function Sidebar() {
   return (
-    <div className={` flex flex-col gap-5 pt-5 pl-4 h-screen w-[240px] `}>
+    <div className="flex-col gap-5 pt-5 pl-4 h-screen w-[240px] hidden lg:flex">
       <div className="flex flex-col items-start gap-6 ">
         <img className="rounded-lg h-28" src={logo} />
         <h1 className="text-xl">PORTFOLIO</h1>

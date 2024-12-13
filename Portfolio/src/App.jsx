@@ -4,7 +4,6 @@ import ROUTer from "./Components/ROUTer";
 function App() {
   return (
     <>
-      {/* <HomePage /> */}
       <ROUTer />
     </>
   );

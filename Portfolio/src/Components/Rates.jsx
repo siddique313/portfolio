@@ -1,4 +1,3 @@
-import React from "react";
 import RatesItems from "./RatesItems";
 
 export default function Rates() {

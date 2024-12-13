@@ -1,12 +1,13 @@
-import React from "react";
 import { FaPaperPlane } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { MdLocationOn } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
+
 const Contact = () => {
   const notification = () => {
     alert("your message has been send successfully!");
   };
+
   return (
     <>
       <div className="bg-slate-400   ">
@@ -44,8 +45,7 @@ const Contact = () => {
           <div className="ml-4 mt-5">
             <h3>Email</h3>
             <input
-              className="w-[98%] py-2 rounded-md text-xl px-2 border-black justify-centre outline-none
-              "
+              className="w-[98%] py-2 rounded-md text-xl px-2 border-black justify-centre outline-none"
               type="email"
             />
           </div>
