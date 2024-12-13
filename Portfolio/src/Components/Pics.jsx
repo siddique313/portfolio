@@ -6,7 +6,6 @@ const Pics = () => {
     <>
       <div className="flex items-center justify-center object-cover gap-4 w-full
       ">
-        
         <img
           src="https://i.tribune.com.pk/media/images/Babar-Azam1721817033-0/Babar-Azam1721817033-0.jpg"
           alt="baber azam"

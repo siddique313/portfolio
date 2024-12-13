@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function RatesItems({ BasicColor, storage, rupies }) {
   return (
     <div className="w-full ">
