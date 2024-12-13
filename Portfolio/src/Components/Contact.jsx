@@ -11,7 +11,7 @@ const Contact = () => {
     <>
       <div className="bg-slate-400   ">
         <div className="ml-4 text-2xl ">
-          <h1 className="pt-5 text-2xl">Contact Me</h1>
+          <h1 className="pt-5 text-2xl">Contact Us</h1>
         </div>
         <div className="mt-5 flex justify-center text-center">
           <div className="mt-6 bg-blue-700 py-12 flex flex-col gap-4 items-center justify-start w-72">
