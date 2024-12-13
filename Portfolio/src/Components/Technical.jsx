@@ -1,13 +1,13 @@
-import React from "react";
 import TechnicalItems from "./TechnicalItems";
 import { FaDownload } from "react-icons/fa";
 
 const Technical = () => {
+
   const start = () => {
     alert("downloading starts!");
   };
+
   return (
-    <>
       <div className="mt-10 px-4 flex flex-col gap-4">
         <h1 className="text-xl">Technical Skills</h1>
         <TechnicalItems width={"95%"} skillName={"Photography"} />
@@ -25,7 +25,6 @@ const Technical = () => {
           </button>
         </div>
       </div>
-    </>
   );
 };
 

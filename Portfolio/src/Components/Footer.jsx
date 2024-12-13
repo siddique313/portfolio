@@ -1,8 +1,5 @@
-import React from "react";
-
 const Footer = () => {
   return (
-    <>
       <div className="bg-slate-500  pl-7 flex justify-between w-full pb-7 text-white">
         <div className="w-[30%]">
           <h1 className="text-2xl pt-10 ">FOOTER</h1>
@@ -71,7 +68,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 
