@@ -9,7 +9,7 @@ export default function Cards() {
   return (
     <div className='mt-5'>
       <div className=" w-full h-1 bg-slate-300"></div>
-      <div className='bg-slate-100 grid grid-cols-3 gap-7 p-9'>
+      <div className='bg-slate-100 grid grid-cols-1 sm:grid-cols-3 gap-7 p-9'>
       <CardItem imge={imge1} />
       <CardItem imge={imge2} />
       <CardItem imge={imge3} />
