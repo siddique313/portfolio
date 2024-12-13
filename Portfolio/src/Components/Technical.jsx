@@ -18,10 +18,9 @@ const Technical = () => {
             onClick={start}
             className="py-3 cursor-pointer px-4 bg-slate-500 text-white hover:bg-slate-300 hover:text-black flex items-center justify-start gap-2"
           >
-            {" "}
             <span>
               <FaDownload />
-            </span>{" "}
+            </span>
             Download Resume
           </button>
         </div>
