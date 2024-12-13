@@ -6,7 +6,6 @@ export default function Rates() {
     <div className="bg-slate-100 mt-7 ml-4">
       <h1 className="text-2xl font-thin mb-3">How much I charge</h1>
       <div className="flex gap-3 opacity-55">
-        
         <RatesItems BasicColor={"bg-black"} storage={"1 GB"} rupies={"10"} />
         <RatesItems
           BasicColor={"bg-blue-500"}
