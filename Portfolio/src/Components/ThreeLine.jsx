@@ -14,5 +14,5 @@ export default function ThreeLine({hideShow, setHideShow}) {
         <img src={ing} width={100} className='rounded-full' alt="" />
      </div>
     </div>
-  )
+  );
 }
