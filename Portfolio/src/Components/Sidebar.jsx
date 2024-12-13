@@ -1,10 +1,6 @@
 import logo from "../assets/logo2.png";
 import { IoAppsSharp, IoMail } from "react-icons/io5";
 import { IoMdContact } from "react-icons/io";
-<<<<<<< HEAD
-import "./sideBar.css";
-=======
->>>>>>> 3acf0989fb0901f09ead9b3127c078164cb66ac8
 import { NavLink } from "react-router";
 export default function Sidebar() {
   return (
