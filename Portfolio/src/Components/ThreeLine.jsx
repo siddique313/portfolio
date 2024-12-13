@@ -1,6 +1,4 @@
-import React, { useState } from 'react'
 import ing from "../assets/logo2.png"
-import Sidebar from './Sidebar'
 export default function ThreeLine({hideShow, setHideShow}) {
   return (
     <div className='w-full   flex lg:hidden px-5 items-center justify-between  '>
@@ -10,7 +8,7 @@ export default function ThreeLine({hideShow, setHideShow}) {
       <div className='w-6 h-1  bg-blue-950 '></div>
       <div className='w-6 h-1  bg-blue-950 '></div>
      </div>
-     <div className=' float-right'>
+     <div className='pt-4'>
         <img src={ing} width={100} className='rounded-full' alt="" />
      </div>
     </div>

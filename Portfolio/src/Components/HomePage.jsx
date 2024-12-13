@@ -11,7 +11,7 @@ import ThreeLine from "./ThreeLine";
 import { useState } from "react";
 
 export default function HomePage() {
-  const [hideShow,setHideShow] = useState(false)
+  const [hideShow,setHideShow] = useState(true)
 
   return (
     <section className="relative">
