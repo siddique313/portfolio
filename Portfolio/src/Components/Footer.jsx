@@ -1,3 +1,5 @@
+import img1 from "../assets/p3.png"
+import img2 from "../assets/p1.png"
 const Footer = () => {
   return (
       <div className="bg-slate-500  pl-7 grid grid-cols-1 sm:grid-cols-3 text-center sm:te w-full pb-7 text-white">
@@ -15,8 +17,7 @@ const Footer = () => {
           <div className="flex gap-6 items-center justify-center  hover:bg-slate-400" >
             <img
               className="w-14 h-16 "
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/220px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg"
-              alt=""
+              src={img1}   
             />
             <div>
               <h1>Lorem</h1>
@@ -30,7 +31,7 @@ const Footer = () => {
           >
             <img
               className="w-14 h-16"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToVXCSdIE3MtC2Zm3tz7JNWYDbhFbC25Y0gQ&s"
+              src={img2}
               alt=""
             />
             <div>
